@@ -1,0 +1,35 @@
+openapi: "3.0.1"
+info:
+  title: E-commerce store
+  description: E-commerce which includes payment integration with razorpay and stripe , Registration system with mongoose
+  version: 1.0.0
+  contact: 
+    email: vinitparekh1742@gmail.com
+    url: "https://www.vinitparekh.rocks"
+
+servers:
+  - url: "{protocol}://localhost:3001/api/{version}"
+    description: Local version of social app
+    # variable delclaration for url
+    variables:
+      version:
+        default: v1
+        enum:
+          - v1
+          - v2
+      protocol:
+        default: http
+        enum:
+          - http
+          - https
+
+components:
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: token
+
+    BearerAuth:
+      type: http
+      scheme: bearer
