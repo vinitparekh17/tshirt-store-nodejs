@@ -56,11 +56,11 @@ const orderSchema = new Schema({
                 required: true
             },
 
-            // product: {
-            //     type: Schema.objectId, // mongoose.Schema.Types.ObjectId
-            //     ref: 'Eproduct',
-            //     required: true
-            // }
+            product: {
+                type: mongoose.Schema.Types.ObjectId, // mongoose.Schema.Types.ObjectId
+                ref: 'Eproduct',
+                required: true
+            }
         }
     ],
 
@@ -70,7 +70,7 @@ const orderSchema = new Schema({
         }
     },
 
-    textAmount: {
+    texAmount: {
         type: Number,
         required: true
     },

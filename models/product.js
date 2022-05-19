@@ -35,6 +35,11 @@ const productSchema = new Schema({
         required: [true, "Please add a brand for clothing"]
     },
 
+    stock: {
+        type: Number,
+        required: [true, "Please mention the amount of stock"]
+    },
+
     ratings: {
         type: Number,
         default: 0,
