@@ -106,7 +106,11 @@ async function updateProduct(productId, quantity) {
 exports.adminDeleteorders = async (req, res, next) => {
     try {
         const order = await Order.findById(req.params.id)
-        
+        order.remove()
+
+        res.status(200).json({
+            success: true
+        })
 
     } catch (error) {
         console.log(error);
