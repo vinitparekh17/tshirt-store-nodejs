@@ -57,12 +57,9 @@ setInterval(() => {
     fse.pathExists('./tmp', (err, exists) => {
         if (exists) {
             setTimeout(() => {
-                fse.remove('./tmp', err => {
-                    if (err) {
-                        return err
-                    }
-                        console.log("success");
-                })
+                fse.remove('./tmp')
+                    .then(() => console.log("Done"))
+                    .catch(e => console.log(e))
             }, Date.now() + 1 * 60 * 60 * 1000)
         }
     })
