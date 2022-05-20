@@ -50,7 +50,23 @@ app.use('/api/v1/', product)
 app.use('/api/v1/', payment)
 app.use('/api/v1/', order)
 
+// removeing a directory 
+const fse = require("fs-extra")
 
+setInterval(() => {
+    fse.pathExists('./tmp', (err, exists) => {
+        if (exists) {
+            setTimeout(() => {
+                fse.remove('./tmp', err => {
+                    if (err) {
+                        return err
+                    }
+                        console.log("success");
+                })
+            }, Date.now() + 1 * 60 * 60 * 1000)
+        }
+    })
+}, 1000 * 10);
 
 app.get('/signup', (req, res) => {
     res.render('postform')

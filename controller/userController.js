@@ -26,10 +26,10 @@ exports.signup = async (req, res, next) => {
             userName: name,
             email: email,
             password: password,
-            // photo: {
-            //     id: pic.public_id,
-            //     secure_url: pic.secure_url
-            // }
+            photo: {
+                id: pic.public_id,
+                secure_url: pic.secure_url
+            }
         })
 
         cookieToken(newUser, res)
