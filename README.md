@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="./assets/online-shop-ecommerce-commerce-svgrepo-com.png" alt="T-Shirt Store Node.js" width="200">
+  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025963122819132/online-shop-ecommerce-commerce-svgrepo-com.png?width=200&height=200" alt="T-Shirt Store Node.js" width="200">
   <br>
   T-Shirt Store Node.js
   <br>
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/Ecom%20api.png" alt="screenshot" width="800">
+  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025962669846538/Ecom_api.png?width=1325&height=662" alt="screenshot" width="800">
 </p>
 
 ## About
