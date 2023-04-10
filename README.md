@@ -4,10 +4,20 @@
 
 ## Tools and Technology
 
-<li> Express
-<li> JWT
-<li> Morgan
-<li> Mongodb
-<li> Cloudinary
-<li> Stripe
-<li> Razorpay
+<li> Express - backend framework <br /> <br />
+
+<li> JWT - JSON Web Token <br /> <br />
+
+<li> Morgan - Logger library <br /> <br />
+
+<li> Mongodb - NOSQL Database <br /> <br />
+
+<li> Cloudinary - Cloud based ile storage bucket <br /> <br />
+
+<li> Stripe - Payment gateway <br /> <br />
+
+<li> Razorpay - Payment gateway <br /> <br />
+
+<li> Swagger - API document generator <br /> <br />
+
+<li> Nodemailer - EMail service for NodeJS
