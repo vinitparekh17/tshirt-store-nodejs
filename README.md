@@ -4,32 +4,34 @@
 
 ## Tools and Technology
 
-<li> Express - backend framework <br /> <br />
+<li> Express - backend framework 
 
-<li> JWT - JSON Web Token <br /> <br />
+<li> JWT - JSON Web Token 
 
-<li> Morgan - Logger library <br /> <br />
+<li> Morgan - Logger library 
 
-<li> Mongodb - NOSQL Database <br /> <br />
+<li> Mongodb - NOSQL Database 
 
-<li> Cloudinary - Cloud storage bucket <br /> <br />
+<li> Cloudinary - Cloud storage bucket 
 
-<li> Stripe - Payment gateway <br /> <br />
+<li> Stripe - Payment gateway 
 
-<li> Razorpay - Payment gateway <br /> <br />
+<li> Razorpay - Payment gateway 
 
-<li> Swagger - API document generator <br /> <br />
+<li> Swagger - API document generator 
 
 <li> Nodemailer - EMail service for NodeJS
 
 ## Pre-requisites
 
-<li> NodeJS <br /> <br />
-<li> Mongodb <br /> <br />
-<li> Cloudinary API<br /> <br />
-<li> Stripe API <br /> <br />
-<li> Razorpay API <br /> <br />
-<li> Nodemailer setup <br /> <br />
+```txt
+|-NodeJS 
+|-Mongodb
+|-Cloudinary API
+|-Stripe API 
+|-Razorpay API 
+|-Nodemailer setup
+```
 
 ## Installation
 
