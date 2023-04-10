@@ -21,3 +21,36 @@
 <li> Swagger - API document generator <br /> <br />
 
 <li> Nodemailer - EMail service for NodeJS
+
+## Pre-requisites
+
+<li> NodeJS <br /> <br />
+<li> Mongodb <br /> <br />
+<li> Cloudinary API<br /> <br />
+<li> Stripe API <br /> <br />
+<li> Razorpay API <br /> <br />
+<li> Nodemailer setup <br /> <br />
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/vinitparekh17/tshirt-store-nodejs
+```
+
+Install dependencies
+
+```bash
+yarn install
+```
+
+Create `.env` file in the root directory according to the `.env.example` file
+
+## Usage
+
+```bash
+yarn start
+```
+
+<b> Note: This project is no longer maintained so try to use it at your own risk. </b>

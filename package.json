@@ -4,6 +4,9 @@
   "description": "A shopping site with registration",
   "main": "index.js",
   "author": "Vinit Parekh",
+  "scripts": {
+    "start": "yarn run index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
