@@ -12,7 +12,7 @@
 
 <li> Mongodb - NOSQL Database <br /> <br />
 
-<li> Cloudinary - Cloud based ile storage bucket <br /> <br />
+<li> Cloudinary - Cloud based storage bucket <br /> <br />
 
 <li> Stripe - Payment gateway <br /> <br />
 
