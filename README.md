@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025963122819132/online-shop-ecommerce-commerce-svgrepo-com.png?width=200&height=200" alt="T-Shirt Store Node.js" width="200">
+  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025963122819132/online-shop-ecommerce-commerce-svgrepo-com.png?width=200&height=200" alt="T-Shirt Store Node.js" width="40">
   <br>
   T-Shirt Store Node.js
   <br>
