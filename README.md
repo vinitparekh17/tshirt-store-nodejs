@@ -52,11 +52,6 @@ To run this project, you need to have the following prerequisites installed:
 
 Once you have installed the prerequisites, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/vinitparekh17/tshirt-store-nodejs.git`
-2. Install the dependencies: `npm install`
-3. Create a `.env` file and add your environment variables for Cloudinary, Stripe, Razorpay, and Nodemailer:
-
-
 ## Installation
 
 Clone the repository
