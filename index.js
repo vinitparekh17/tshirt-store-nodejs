@@ -1,14 +1,12 @@
-const app = require("./app")
-require('dotenv').config()
-const cloudinary = require('cloudinary')
-const { PORT } = process.env
-const { CLOUD_NAME, CLOUD_KEY, CLOUD_SECRET } = process.env
-cloudinary.config({
-    cloud_name: CLOUD_NAME,
-    api_key: CLOUD_KEY,
-    api_secret: CLOUD_SECRET
-})
+const app = require("./app");
+const { config } = require("./config");
+const cloudinary = require("cloudinary");
 
-app.listen(PORT, () => {
-    console.log("http://localhost:3001")
-})
+cloudinary.config({
+  cloud_name: config.CLOUD_NAME,
+  api_key: config.CLOUD_KEY,
+  api_secret: config.CLOUD_SECRET,
+});
+app.listen(config.PORT, () => {
+  console.log(`http://localhost:${PORT}`);
+});
