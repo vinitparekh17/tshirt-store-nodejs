@@ -3,10 +3,10 @@ const cors = require("cors");
 const { config } = require("./config");
 // Initiliseing server application with express
 const app = express();
-
+// app.use(cors());
 app.use(
   cors({
-    origin: [process.env.LOCAL_URL, process.env.PROD_URL],
+    origin: [config.PROD_URL, config.LOCAL_URL],
     credentials: true,
   })
 );

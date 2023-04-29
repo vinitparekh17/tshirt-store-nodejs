@@ -1,7 +1,6 @@
 const User = require("../models/user");
 const cookieToken = require("../utils/CookieToken");
 const CustomError = require("../utils/CustomError");
-const cloudinary = require("cloudinary");
 const crypto = require("crypto");
 const mailer = require("../utils/emailHelper");
 
