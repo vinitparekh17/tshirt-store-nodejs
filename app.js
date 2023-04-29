@@ -51,7 +51,7 @@ const order = require("./routes/order");
 
 app.get("/ping", (req, res) => {
   res.status(200).json({
-    message: "pong",
+    message: "pong...",
   });
 });
 
