@@ -4,20 +4,12 @@ const { config } = require("./config");
 // Initiliseing server application with express
 const app = express();
 
-const whiteList = [config.LOCAL_URL, config.PROD_URL];
-console.log(whiteList);
-
-const corsOptions = {
-  origin: function (origin, callback) {
-    if (whiteList.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  credential: true,
-};
-app.use(cors(corsOptions));
+app.use(
+  cors({
+    origin: [process.env.LOCAL_URL, process.env.PROD_URL],
+    credentials: true,
+  })
+);
 // middleware for getting data from body in json format
 app.use(express.json());
 // middleware for getting data as a search queries
