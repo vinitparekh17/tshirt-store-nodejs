@@ -1,18 +1,19 @@
 const User = require("../models/user");
 const CustomError = require("../utils/CustomError");
 const jwt = require("jsonwebtoken");
+const asyncHandler = require("../utils/asyncHandler");
 
-exports.isLoggedIn = async (req, res, next) => {
+exports.isLoggedIn = asyncHandler(async (req, res, next) => {
   const token = req.cookies.token;
   if (!token) {
-    return next(new CustomError("Login before accessing this page!", 400));
+    throw new CustomError("Login before accessing this page!", 400);
   }
 
   const decoded = jwt.verify(token, process.env.JWT_SECRET);
   req.user = await User.findById(decoded.id);
   console.log(req.user._id);
   next();
-};
+});
 
 exports.customRole = (...roles) => {
   return (req, res, next) => {
