@@ -1,28 +1,23 @@
 <h1 align="center">
-  <br>
-  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025963122819132/online-shop-ecommerce-commerce-svgrepo-com.png?width=200&height=200" alt="T-Shirt Store Node.js" width="40">
-  <br>
-  T-Shirt Store Node.js
-  <br>
+  <img src="https://github.com/user-attachments/assets/cad63057-ea84-4b15-a55f-923cf159bbf3" alt="tshirt store logo" width="100px"/>
+  
+  T-Shirt Store in Node.js
 </h1>
 
 <p align="center">
-  <a href="#prerequisites"><img src="https://img.shields.io/badge/Prerequisites-Node.js%20%7C%20MongoDB%20%7C%20Cloudinary%20API%20%7C%20Stripe%20API%20%7C%20Razorpay%20API%20%7C%20Nodemailer-brightgreen"></a>
   <a href="https://github.com/vinitparekh17/tshirt-store-nodejs/issues"><img src="https://img.shields.io/github/issues/vinitparekh17/tshirt-store-nodejs"></a>
   <a href="https://github.com/vinitparekh17/tshirt-store-nodejs/stargazers"><img src="https://img.shields.io/github/stars/vinitparekh17/tshirt-store-nodejs"></a>
   <a href="https://github.com/vinitparekh17/tshirt-store-nodejs/network/members"><img src="https://img.shields.io/github/forks/vinitparekh17/tshirt-store-nodejs"></a>
-  <a href="https://github.com/vinitparekh17/tshirt-store-nodejs/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vinitparekh17/tshirt-store-nodejs"></a>
 </p>
 
 <p align="center">
   <a href="#about">About</a> •
   <a href="#features">Features</a> •
-  <a href="#setup">Setup</a> •
-  <a href="#license">License</a>
+  <a href="#setup">Setup</a>
 </p>
 
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/960919309075509278/1095025962669846538/Ecom_api.png?width=1325&height=662" alt="screenshot" width="800">
+  <img src="https://github.com/user-attachments/assets/bc338ad8-9a1f-4b10-80a9-d7e3c9a420f5?width=1325&height=662" alt="screenshot" width="800">
 </p>
 
 ## About
@@ -74,4 +69,5 @@ Create `.env` file in the root directory according to the `.env.example` file
 yarn start
 ```
 
-<b> Note: This project is no longer maintained so try to use it at your own risk. </b>
+> [!NOTE]
+> This project is no longer maintained since 2023
